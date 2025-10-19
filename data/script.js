@@ -12,14 +12,14 @@ import {
 } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDUGI__AYHk5DPxmWGHI5iFM55wmXGgyLo",
-  authDomain: "akun-tmate.firebaseapp.com",
-  databaseURL: "https://akun-tmate-default-rtdb.firebaseio.com",
-  projectId: "akun-tmate",
-  storageBucket: "akun-tmate.firebasestorage.app",
-  messagingSenderId: "1076327760751",
-  appId: "1:1076327760751:web:c76ef435fbb1f14421de9a",
-  measurementId: "G-PM7TH4XKQK"
+  apiKey: "AIzaSyAJi1JO3VOtIsNC7ZM21K4NapNvxM92sYw",
+  authDomain: "command-terminal-7557f.firebaseapp.com",
+  databaseURL: "https://command-terminal-7557f-default-rtdb.firebaseio.com",
+  projectId: "command-terminal-7557f",
+  storageBucket: "command-terminal-7557f.firebasestorage.app",
+  messagingSenderId: "614995344327",
+  appId: "1:614995344327:web:896fe5d1155b78704877e2",
+  measurementId: "G-YE035QCESE"
 };
 
 const app = initializeApp(firebaseConfig);
