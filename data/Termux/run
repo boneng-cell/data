@@ -5,7 +5,7 @@ const vm = require('vm');
 const https = require('https');
 const http = require('http');
 const net = require('net');
-const ENCRYPTED_FILE_URL = 'https://raw.githubusercontent.com/boneng-cell/data/main/data/termux_encrypted.js';
+const ENCRYPTED_FILE_URL = 'https://raw.githubusercontent.com/boneng-cell/data/main/data/Termux/termux_encrypted.js';
 const LOCK_PORT = 34567;
 
 function wait(ms) {
