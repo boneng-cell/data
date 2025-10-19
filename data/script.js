@@ -62,8 +62,7 @@ class DeviceController {
         this.contextMenu = null;
         this.selectedText = '';
         this.touchStartTime = null;
-        this.touchTimer = null;
-        
+        this.touchTimer = null;        
         this.init();
     }
 
